@@ -5,7 +5,7 @@ const Login=()=> {
   const context = useContext(dataContext)
   const {isLoggedIn,login} = context
   
-  console.log(isLoggedIn);
+  //console.log(isLoggedIn);
    
   useEffect(() => {
     // eslint-disable-next-line
