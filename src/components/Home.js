@@ -1,7 +1,8 @@
 import React, { useContext, useEffect } from 'react'
 import dataContext from '../context/dataContext'
 import Login from './Login'
-import DataState from '../context/DataState';
+import Registation from './Registation'
+//import DataState from '../context/DataState';
 
 
 const Home=()=> {
@@ -10,11 +11,11 @@ const Home=()=> {
   //login();
   
   return (
-    
-     <div>
-      {console.log(isLoggedIn)}
+     <>
       <Login/>
-     </div>
+      <Registation/>
+     </>
+      
      
   )
 }
